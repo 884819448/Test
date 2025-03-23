@@ -15,6 +15,10 @@ jobs:
         stu:
           - stu_num: '23182105'
             address: '中国北京市海淀区花园路街道校园东路18号'
+          - stu_num: '23182605'
+            address: '中国北京市海淀区花园路街道校园东路18号'
+          - stu_num: '23182903'
+            address: '中国北京市海淀区花园路街道校园东路18号'
     steps:
       - name: Send request
         continue-on-error: true
