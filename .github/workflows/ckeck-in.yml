@@ -19,6 +19,8 @@ jobs:
             address: '中国北京市海淀区校园中路'
           - stu_num: '23182903'
             address: '中国北京市海淀区校园中路'
+          - stu_num: '23182610'
+            address: '中国北京市海淀区校园中路'
     steps:
       - name: Send request
         continue-on-error: true
