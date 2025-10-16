@@ -13,8 +13,6 @@ jobs:
       fail-fast: false
       matrix:
         stu:
-          - stu_num: '23182105'
-            address: '中国北京市海淀区校园中路'
           - stu_num: '23182605'
             address: '中国北京市海淀区校园中路'
           - stu_num: '23182903'
