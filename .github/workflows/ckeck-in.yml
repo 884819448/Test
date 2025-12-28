@@ -40,4 +40,4 @@ jobs:
           max_attempts: 30
           retry_wait_seconds: 60
           command: |
-            curl https://bjxyxsxx.buaa.edu.cn/bjxy/qdqj/addQdInfo.do -X POST -F stuNum=${{ matrix.stu.stu_num }} -F key= -F address=${{ matrix.stu.address }}
+            #curl https://bjxyxsxx.buaa.edu.cn/bjxy/qdqj/addQdInfo.do -X POST -F stuNum=${{ matrix.stu.stu_num }} -F key= -F address=${{ matrix.stu.address }}
