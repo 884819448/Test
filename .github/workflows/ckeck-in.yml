@@ -13,24 +13,6 @@ jobs:
       fail-fast: false
       matrix:
         stu:
-          - stu_num: '23182105'
-            address: '中国北京市海淀区校园中路'
-          - stu_num: '23182605'
-            address: '中国北京市海淀区校园中路'
-          - stu_num: '23182903'
-            address: '中国北京市海淀区校园中路'
-          - stu_num: '23182610'
-            address: '中国北京市海淀区校园中路'
-          - stu_num: '24182928'
-            address: '北京市海淀区北土城西路207号'
-          - stu_num: '23182207'
-            address: '中国北京市海淀区花园路街道校园北路'
-          - stu_num: '25182414'
-            address: '中国北京市海淀区校园中路' 
-          - stu_num: '23182916'
-            address: '中国北京市海淀区花园路街道校园东路18号' 
-          - stu_num: '23182920'
-            address: '中国北京市海淀区花园路街道校园中路' 
     steps:
       - name: Send request
         continue-on-error: true
@@ -40,4 +22,4 @@ jobs:
           max_attempts: 30
           retry_wait_seconds: 60
           command: |
-            curl https://bjxyxsxx.buaa.edu.cn/bjxy/qdqj/addQdInfo.do -X POST -F stuNum=${{ matrix.stu.stu_num }} -F key= -F address=${{ matrix.stu.address }}
+            #//curl https://bjxyxsxx.buaa.edu.cn/bjxy/qdqj/addQdInfo.do -X POST -F stuNum=${{ matrix.stu.stu_num }} -F key= -F address=${{ matrix.stu.address }}
